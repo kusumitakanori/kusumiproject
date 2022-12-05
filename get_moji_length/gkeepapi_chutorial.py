@@ -4,7 +4,7 @@ import requests
 from PIL import Image
 
 keep = gkeepapi.Keep()
-keep.login('yoruijob@gmail.com', 'hntrse421')
+keep.login('yamada@gmail.com', 'hogehoge')
 keep.sync()
 # メモの取得
 gnotes = keep.all()
